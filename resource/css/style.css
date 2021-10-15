@@ -1,0 +1,101 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html {
+ color: #fff;
+ font-family: "Fira Sans", sans-serif;
+ font-size: 20px;
+ font-weight: 200;
+ text-rendering: optimizeLegibility;
+}
+body {
+  margin: 0px 0px 0px 80px;
+  background-color: #F96241;
+  background-image: url('../images/Shape.png');
+  background-repeat: no-repeat;
+ background-attachment:scroll;
+ background-size: cover;
+}
+header {
+height: 60vh;
+}
+
+.hero {
+ margin: 15% 0;
+}
+.hero-text {
+ font-size: 64px;
+ font-weight: 400;
+ text-transform: capitalize;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ word-spacing: 2px;
+}
+.hero-description {
+ font-size: 16px;
+ font-weight: 400;
+ width: 60%;
+ color: rgba(255, 255, 255, 0.7);
+ margin-bottom: 60px;
+ line-height: 160%;
+}
+
+/* ---------------BUTTONS--------------- */
+.nav {
+ display: flex;
+ justify-content:space-between;
+ margin: 60px 0px;
+}
+
+.menu{
+ display: flex;
+ justify-content: space-between;
+}
+
+.go p{
+ font-size: 10px;
+ font-weight: 200;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.go{
+ margin-right: 300px;
+}
+
+#icon-short_text{
+ margin-right: 82px;
+
+}
+
+.logo p {
+ font-size: 30px;
+ font-weight: 500;
+ letter-spacing: 3px;
+}
+
+.media {
+position: relative;
+}
+.image{
+/* width:600px;
+height:616px; */
+overflow: hidden;
+}
+
+.playbutton{
+position: absolute;
+top: 68%;
+right: 95%;
+}
+
+.social-media {
+display: flex;
+}
+
+.social-media svg {
+margin:0 10px;
+}
